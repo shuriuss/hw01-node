@@ -1,0 +1,29 @@
+{
+  "name": "hw01-node",
+  "version": "1.0.0",
+  "description": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shuriuss/hw01-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shuriuss/hw01-node/issues"
+  },
+  "homepage": "https://github.com/shuriuss/hw01-node#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "nanoid": "^4.0.0",
+    "uuid": "^9.0.0"
+  }
+}
